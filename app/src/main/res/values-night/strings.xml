@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile">Profile</string>
+    <string name="title_dictionary">Dictionary</string>
+    <string name="title_cart">Cart</string>
+    <string name="hello">Hello,</string>
+    <string name="search">Search</string>
+    <string name="welcome_to_bloommate">Welcome to BloomMate!</string>
+    <string name="minus">minus</string>
+    <string name="add">add</string>
+    <string name="image_product">image product</string>
+    <string name="_1">1</string>
+    <string name="delete">delete</string>
+    <string name="cart">Cart</string>
+    <string name="welcome">Welcome</string>
+    <string name="you_can_login_here">you can login here.</string>
+    <string name="email">Email</string>
+    <string name="logo">logo</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="camera">camera</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+    <string name="stock">Stock</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="description">Description</string>
+    <string name="flower_name">Flower name</string>
+    <string name="detail">Detail</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="address">Address</string>
+    <string name="didn_t_have_account">Didn\'t Have Account?</string>
+    <string name="let_s_make_an_account">Let\'s Make an Account!</string>
+    <string name="register">REGISTER</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login_here">Login here</string>
+    <string name="post">post</string>
+    <string name="post_a_flower_product">Post a Flower Product</string>
+    <string name="post_a_flower">Post a Flower</string>
+    <string name="seller_corner">Seller Corner</string>
+    <string name="post_flower">Post Flower</string>
+    <string name="edit_flower">Edit Flower</string>
+    <string name="edit">Edit</string>
+    <string name="flower_title">Flower Title</string>
+    <string name="wrong_input">Wrong input!</string>
+    <string name="register_success">Register success</string>
+    <string name="treatment">Treatment</string>
+    <string name="nama_latin">Nama latin</string>
+    <string name="hey">Hey,</string>
+    <string name="let_s_know_about_flowers">Let\'s know about flowers!</string>
+    <string name="scan_with">Scan with:</string>
+    <string name="classification">Classification</string>
+    <string name="get_nearest_florist">Get Nearest Florist</string>
+
+
+</resources>

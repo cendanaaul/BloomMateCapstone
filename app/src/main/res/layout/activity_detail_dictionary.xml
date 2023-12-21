@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detaildictionary.DetailDictionaryActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flower_list"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flower_name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/list"
+            app:layout_constraintStart_toEndOf="@+id/list"
+            app:layout_constraintTop_toTopOf="@+id/list" />
+
+        <TextView
+            android:id="@+id/tv_latin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latin"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/gray_600"
+            app:layout_constraintStart_toStartOf="@+id/tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+        <ImageView
+            android:id="@+id/list2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flower_list"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="@+id/list"
+            app:layout_constraintTop_toBottomOf="@+id/tv_latin" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/list2"
+            app:layout_constraintStart_toEndOf="@+id/list2"
+            app:layout_constraintTop_toTopOf="@+id/list2" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:inputType="textMultiLine"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/gray_600"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desc" />
+
+        <ImageView
+            android:id="@+id/list3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flower_list"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@+id/list2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_desc" />
+
+
+        <TextView
+            android:id="@+id/clasific"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/classification"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/list3"
+            app:layout_constraintStart_toEndOf="@+id/list3"
+            app:layout_constraintTop_toTopOf="@+id/list3" />
+
+        <TextView
+            android:id="@+id/tv_classification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:inputType="textMultiLine"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/gray_600"
+            android:textSize="16sp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clasific" />
+
+        <ImageView
+            android:id="@+id/list4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flower_list"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@+id/list3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_classification" />
+
+        <TextView
+            android:id="@+id/treat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/treatment"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/list4"
+            app:layout_constraintStart_toEndOf="@+id/list4"
+            app:layout_constraintTop_toTopOf="@+id/list4" />
+
+        <TextView
+            android:id="@+id/tv_treatment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:inputType="textMultiLine"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/gray_600"
+            android:textSize="16sp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/treat" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loading_process"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="invisible"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loading_flower"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

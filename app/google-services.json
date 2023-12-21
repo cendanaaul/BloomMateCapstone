@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95836983208",
+    "project_id": "coral-sum-402511",
+    "storage_bucket": "coral-sum-402511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95836983208:android:6dc59964ad07051ade579d",
+        "android_client_info": {
+          "package_name": "com.cencen.bloommatecapstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95836983208-gv4mceapp2t9ktk9t7kap029org1032b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe9UkSEKU515VBoRATfNjQE8vmB2y_OEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95836983208-gv4mceapp2t9ktk9t7kap029org1032b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
